@@ -31,6 +31,12 @@ h1 {
     margin-left: 30%;
     font-size: 1.5em;
 }
+.buttons {
+    padding-top: 1em;
+}
+#result {
+    padding-top: 1.5em;
+}
 /* Button Styles */
 
 .Rock {
