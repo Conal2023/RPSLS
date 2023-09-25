@@ -1,0 +1,18 @@
+.logo {
+    background-color: aqua;
+    border-radius: 2em;
+    margin-left: 45%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.game-area {
+    width: 300px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 3em;
+    margin-left: 40%;
+}
