@@ -20,4 +20,5 @@ function play(playerChoice) {
     else{
         resultMessage = `You Lose! Try Again. Computer chose ${computerChoice}.`;
     }
+    document.getElementById('result').innerText = resultMessage
 }
