@@ -1,5 +1,5 @@
 function play(playerChoice) {
-    const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
+    const choices = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
     const computerChoice = choices[Math.floor(Math.random() * choices.length)];
 
     let resultMessage = '';
@@ -8,11 +8,11 @@ function play(playerChoice) {
         resultMessage = `It's a tie!. Computer chose ${computerChoice} too! Go again!!`
     }
     else if (
-        (playerChoice === 'rock' && (computerChoice === 'scissors' || computerChoice  === 'lizard')) ||
-        (playerChoice === 'paper' && (computerChoice === 'rock' || computerChoice === 'spock')) ||
-        (playerChoice === 'scissors' && (computerChoice === 'paper' || computerChoice === 'lizard')) ||
-        (playerChoice === 'lizard' && (computerChoice === 'spock' || computerChoice === 'paper')) ||
-        (playerChoice === 'spock' && (computerChoice === 'scissors' || computerChoice === 'rock'))
+        (playerChoice === 'Rock' && (computerChoice === 'Scissors' || computerChoice  === 'Lizard')) ||
+        (playerChoice === 'Paper' && (computerChoice === 'Rock' || computerChoice === 'Spock')) ||
+        (playerChoice === 'Scissors' && (computerChoice === 'Paper' || computerChoice === 'Lizard')) ||
+        (playerChoice === 'Lizard' && (computerChoice === 'Spock' || computerChoice === 'Paper')) ||
+        (playerChoice === 'Spock' && (computerChoice === 'Scissors' || computerChoice === 'Rock'))
     )
     {
         resultMessage = `You win! Congratulations. Computer chose ${computerChoice}.`;
