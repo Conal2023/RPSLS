@@ -31,6 +31,7 @@ h1 {
     margin-left: 35%;
     font-size: 1.5em;
 }
+/* Button Styles */
 
 .Rock {
 border-radius: 3em;
@@ -47,6 +48,62 @@ padding: 7.5px;
     box-shadow: 0 0 10px rgb(71, 68, 68);
 }
 
+.Paper {
+    border-radius: 3em;
+    border: 1px solid black;
+    box-shadow: 2px 2px grey;
+    font-size: 1em;
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+    background-color: rgb(228, 170, 170);
+    padding: 7.5px;
+}
+
+.Paper:hover {
+    box-shadow: 0 0 10px rgb(71, 68, 68);
+}
+.Scissors {
+    border-radius: 3em;
+    border: 1px solid black;
+    box-shadow: 2px 2px grey;
+    font-size: 1em;
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+    background-color: rgb(228, 170, 170);
+    padding: 7.5px;
+}
+
+.Scissors:hover {
+    box-shadow: 0 0 10px rgb(71, 68, 68);
+}
+.Lizard {
+    border-radius: 3em;
+    border: 1px solid black;
+    box-shadow: 2px 2px grey;
+    font-size: 1em;
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+    background-color: rgb(228, 170, 170);
+    padding: 7.5px;
+}
+
+.Lizard:hover {
+    box-shadow: 0 0 10px rgb(71, 68, 68);
+}
+.Spock {
+    border-radius: 3em;
+    border: 1px solid black;
+    box-shadow: 2px 2px grey;
+    font-size: 1em;
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+    background-color: rgb(228, 170, 170);
+    padding: 7.5px;
+}
+
+.Spock:hover {
+    box-shadow: 0 0 10px rgb(71, 68, 68);
+}
 /* Footer */
 footer {
     background-color: #8EAF43;
