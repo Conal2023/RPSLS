@@ -14,4 +14,10 @@ function play(playerChoice) {
         (playerChoice === 'lizard' && (computerChoice === 'spock' || computerChoice === 'paper')) ||
         (playerChoice === 'spock' && (computerChoice === 'scissors' || computerChoice === 'rock'))
     )
+    {
+        resultMessage = `You win! Congratulations. Computer chose ${computerChoice}.`;
+    }
+    else{
+        resultMessage = `You Lose! Try Again. Computer chose ${computerChoice}.`;
+    }
 }
