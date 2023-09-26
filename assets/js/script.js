@@ -1,3 +1,14 @@
+document.addEventListener("DOMContentLoaded", function () {
+    let buttons = document.getElementsByTagName("button");
+
+    for (let button of buttons) {
+        button.addEventListener("click", function () {
+            const playerChoice = this.getAttribute("data-playerChoice")
+            play(playerChoice)
+        })
+    }
+})
+
 function play(playerChoice) {
     const choices = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
     const computerChoice = choices[Math.floor(Math.random() * choices.length)];
