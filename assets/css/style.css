@@ -4,13 +4,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* General Styles */
 body {
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 80px;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
+
 .logo {
-    background-color: aqua;
+    background-color: #5FFBF1;
     border-radius: 8em;
     margin-left: 45%;
     padding: 10px;
@@ -28,12 +31,14 @@ h1 {
     padding: 50px;
     margin: 20px;
     border-radius: 3em;
-    margin-left: 30%;
+    margin-left: 35%;
     font-size: 1.5em;
 }
+
 .buttons {
     padding-top: 1em;
 }
+
 #result {
     padding-top: 1.5em;
 }
@@ -42,7 +47,7 @@ h1 {
     margin: 2em auto;
     width: 60%;
     font-size: 1.2rem;
-    margin-left: 40%;
+    margin-left: 42%;
 }
 
 .scores {
@@ -59,17 +64,18 @@ h1 {
     color: red;
     font-weight: bold;
 }
+
 /* Button Styles */
 
 .Rock {
-border-radius: 3em;
-border: 1px solid black;
-box-shadow: 2px 2px grey;
-font-size: 1em;
-color: white;
-text-shadow: 1.5px 1.5px black;
-background-color: rgb(228, 170, 170);
-padding: 7.5px;
+    border-radius: 3em;
+    border: 1px solid black;
+    box-shadow: 2px 2px grey;
+    font-size: 1.5em;
+    font-family: 'Brush Script MT';
+    color: black;
+    background-color: #5FFBF1;
+    padding: 7.5px;
 }
 
 .Rock:hover {
@@ -80,61 +86,65 @@ padding: 7.5px;
     border-radius: 3em;
     border: 1px solid black;
     box-shadow: 2px 2px grey;
-    font-size: 1em;
-    color: white;
-    text-shadow: 1.5px 1.5px black;
-    background-color: rgb(228, 170, 170);
+    font-size: 1.5em;
+    font-family: 'Brush Script MT';
+    color: black;
+    background-color: #5FFBF1;
     padding: 7.5px;
 }
 
 .Paper:hover {
     box-shadow: 0 0 10px rgb(71, 68, 68);
 }
+
 .Scissors {
     border-radius: 3em;
     border: 1px solid black;
     box-shadow: 2px 2px grey;
-    font-size: 1em;
-    color: white;
-    text-shadow: 1.5px 1.5px black;
-    background-color: rgb(228, 170, 170);
+    font-size: 1.5em;
+    font-family: 'Brush Script MT';
+    color: black;
+    background-color: #5FFBF1;
     padding: 7.5px;
 }
 
 .Scissors:hover {
     box-shadow: 0 0 10px rgb(71, 68, 68);
 }
+
 .Lizard {
     border-radius: 3em;
     border: 1px solid black;
     box-shadow: 2px 2px grey;
-    font-size: 1em;
-    color: white;
-    text-shadow: 1.5px 1.5px black;
-    background-color: rgb(228, 170, 170);
+    font-size: 1.5em;
+    font-family: 'Brush Script MT';
+    color: black;
+    background-color: #5FFBF1;
     padding: 7.5px;
 }
 
 .Lizard:hover {
     box-shadow: 0 0 10px rgb(71, 68, 68);
 }
+
 .Spock {
     border-radius: 3em;
     border: 1px solid black;
     box-shadow: 2px 2px grey;
-    font-size: 1em;
-    color: white;
-    text-shadow: 1.5px 1.5px black;
-    background-color: rgb(228, 170, 170);
+    font-size: 1.5em;
+    font-family: 'Brush Script MT';
+    color: black;
+    background-color: #5FFBF1;
     padding: 7.5px;
 }
 
 .Spock:hover {
     box-shadow: 0 0 10px rgb(71, 68, 68);
 }
+
 /* Footer */
 footer {
-    background-color: #8EAF43;
+    background-color: #d16ba5;
     height: 100px;
     position: fixed;
     padding: 10px 10px 0px 10px;
