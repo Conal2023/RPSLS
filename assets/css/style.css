@@ -177,5 +177,15 @@ footer {
     color: #3a3a3a;
 }
 
+@media screen and (max-width: 600px) {
 
+.logo {
+    margin: 10%;
+}
+
+.game-area {
+    margin: 1%;
+    width: 270px;
+}
+}
 
