@@ -8,7 +8,7 @@
 /* General Styles */
 body {
     flex: 1 0 auto;
-    margin-top: 80px;
+    margin-top: 180px;
     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 
@@ -17,6 +17,8 @@ body {
     border-radius: 8em;
     margin-left: 45%;
     padding: 10px;
+    max-width: 100%;
+    height: auto;
 }
 
 h1 {
@@ -142,11 +144,19 @@ h1 {
     box-shadow: 0 0 10px rgb(71, 68, 68);
 }
 
+.rules {
+        text-align: center;
+        font-size: 2.5em;
+        text-shadow: 2px 2px black;
+        font-family: 'Brush Script MT';
+        color: white;
+        padding: 7.5px;
+}
+
 /* Footer */
 footer {
     background-color: #d16ba5;
-    height: 100px;
-    position: fixed;
+    height: 100px;  
     padding: 10px 10px 0px 10px;
     bottom: 0;
     width: 100%;
@@ -166,3 +176,6 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+
+
