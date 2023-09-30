@@ -1,3 +1,6 @@
+const playerScoreRef = document.getElementById("pscore")
+const computerScoreRef = document.getElementById("cscore")
+
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
 
@@ -27,9 +30,11 @@ function play(playerChoice) {
     )
     {
         resultMessage = `You win! Congratulations. Computer chose ${computerChoice}.`;
+        playerScoreRef.innerHTML = parseInt(playerScoreRef.innerHTML) + 1;
     }
     else{
         resultMessage = `You Lose! Try Again. Computer chose ${computerChoice}.`;
+    computerScoreRef.innerHTML = parseInt(computerScoreRef.innerHTML) + 1;
     }
     document.getElementById('result').innerText = resultMessage
 }
