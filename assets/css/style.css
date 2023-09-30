@@ -207,35 +207,33 @@ footer {
     .score-area {
         margin: 20%;
     }
-
     .scorereset {
         margin: 25%;
     }
-
     .game-rules {
         margin: 1%;
     }
+  @media screen and (max-width: 768px) {
 
-    @media screen and (max-width: 768px) {
+      .logo {
+          margin: 25%;
+      }
 
-        .logo {
-            margin: 25%;
-        }
+      .game-area {
+          margin: 15%;
+          width: 275px;
+      }
 
-        .game-area {
-            margin: 15%;
-            width: 275px;
-        }
+      .score-area {
+          margin: 20%;
+      }
 
-        .score-area {
-            margin: 20%;
-        }
+      .scorereset {
+          margin: 35%;
+      }
 
-        .scorereset {
-            margin: 35%;
-        }
-
-        .game-rules {
-            margin: 1%;
-        }
+      .game-rules {
+          margin: 1%;
+      }
     }
+}
