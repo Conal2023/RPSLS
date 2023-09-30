@@ -162,11 +162,11 @@ p {
     padding: 7.5px;
 }
 
-.rules {
+.game-rules {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2em;
     color: white;
-    padding: 2em;
+    padding-top: 1.5em;
 }
 
 /* Footer */
