@@ -7,7 +7,13 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let button of buttons) {
         button.addEventListener("click", function () {
             const playerChoice = this.getAttribute("data-playerChoice")
+            const resetBtn = document.getElementById("score-reset")
+            if(!playerChoice && resetBtn){
+                playerScoreRef.innerHTML = 0;
+                computerScoreRef.innerHTML = 0;
+            } else {
             play(playerChoice)
+            }
         })
     }
 })

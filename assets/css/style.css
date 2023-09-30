@@ -9,11 +9,11 @@
 body {
     flex: 1 0 auto;
     margin-top: 180px;
-    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-color: #2f2fa2;
 }
 
 .logo {
-    background-color: #5FFBF1;
+    background-color: #f64c72;
     border-radius: 8em;
     margin-left: 45%;
     padding: 10px;
@@ -25,11 +25,26 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+}
+
+p {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
 }
 
 .game-area {
     width: 650px;
-    border: 2px solid black;
+    border: 2px solid #f64c72;
     padding: 50px;
     margin: 20px;
     border-radius: 3em;
@@ -72,91 +87,92 @@ h1 {
 .Rock {
     border-radius: 3em;
     border: 1px solid black;
-    box-shadow: 2px 2px grey;
-    font-size: 1.5em;
-    font-family: 'Brush Script MT';
-    color: black;
-    background-color: #5FFBF1;
+    font-size: 1.2em;
+    color: white;
+    background-color: #f64c72;
     padding: 7.5px;
 }
 
 .Rock:hover {
-    box-shadow: 0 0 10px rgb(71, 68, 68);
+    box-shadow: 5px 5px 10px #f64c72;
 }
 
 .Paper {
     border-radius: 3em;
     border: 1px solid black;
-    box-shadow: 2px 2px grey;
-    font-size: 1.5em;
-    font-family: 'Brush Script MT';
-    color: black;
-    background-color: #5FFBF1;
+    font-size: 1.2em;
+    color: white;
+    background-color: #f64c72;
     padding: 7.5px;
 }
 
 .Paper:hover {
-    box-shadow: 0 0 10px rgb(71, 68, 68);
+    box-shadow: 5px 5px 10px #f64c72;
 }
 
 .Scissors {
     border-radius: 3em;
     border: 1px solid black;
-    box-shadow: 2px 2px grey;
-    font-size: 1.5em;
-    font-family: 'Brush Script MT';
-    color: black;
-    background-color: #5FFBF1;
+    font-size: 1.2em;
+    color: white;
+    background-color: #f64c72;
     padding: 7.5px;
 }
 
 .Scissors:hover {
-    box-shadow: 0 0 10px rgb(71, 68, 68);
+    box-shadow: 5px 5px 10px #f64c72;
 }
 
 .Lizard {
     border-radius: 3em;
     border: 1px solid black;
-    box-shadow: 2px 2px grey;
-    font-size: 1.5em;
-    font-family: 'Brush Script MT';
-    color: black;
-    background-color: #5FFBF1;
+    font-size: 1.2em;
+    color: white;
+    background-color: #f64c72;
     padding: 7.5px;
 }
 
 .Lizard:hover {
-    box-shadow: 0 0 10px rgb(71, 68, 68);
+    box-shadow: 5px 5px 10px #f64c72;
 }
 
 .Spock {
     border-radius: 3em;
     border: 1px solid black;
-    box-shadow: 2px 2px grey;
-    font-size: 1.5em;
-    font-family: 'Brush Script MT';
-    color: black;
-    background-color: #5FFBF1;
+    font-size: 1.2em;
+    color: white;
+    background-color: #f64c72;
     padding: 7.5px;
 }
 
 .Spock:hover {
-    box-shadow: 0 0 10px rgb(71, 68, 68);
+    box-shadow: 5px 5px 10px #f64c72;
+}
+
+.scorereset {
+    margin-left: 50%;
+}
+
+#score-reset {
+    border-radius: 3em;
+    border: 1px solid black;
+    font-size: 1.2em;
+    color: white;
+    background-color: #f64c72;
+    padding: 7.5px;
 }
 
 .rules {
-        text-align: center;
-        font-size: 2.5em;
-        text-shadow: 2px 2px black;
-        font-family: 'Brush Script MT';
-        color: white;
-        padding: 7.5px;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    padding: 2em;
 }
 
 /* Footer */
 footer {
-    background-color: #d16ba5;
-    height: 100px;  
+    background-color: #f64c72;
+    height: 100px;
     padding: 10px 10px 0px 10px;
     bottom: 0;
     width: 100%;
@@ -174,22 +190,27 @@ footer {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: white;
 }
 
 @media screen and (max-width: 600px) {
 
-.logo {
-    margin: 10%;
-}
+    .logo {
+        margin: 10%;
+    }
 
-.game-area {
-    margin: 1%;
-    width: 270px;
-}
+    .game-area {
+        margin: 1%;
+        width: 270px;
+    }
 
-.score-area {
-    margin: 1%;
+    .score-area {
+        margin: 20%;
+    }
+    .scorereset {
+        margin: 25%;
+    }
+    .game-rules {
+        margin: 1%;
+    }
 }
-}
-
