@@ -6,9 +6,11 @@ This website has been created on the Rock, Paper, Scissors, Lizard, Spock game f
 
 ![AmIResponsive Image](docs/screenshots/responsive.JPG)
 
+
 ## Purpose of the Project
 
 Rock, Paper, Scissors, Lizard, Spock is an expanded version of the original Rock, Paper, Scissors game. The purpose of this project was to create a copy of the game that will allow users to play against the computer. 
+
 
 ## Features 
 
@@ -18,17 +20,20 @@ Rock, Paper, Scissors, Lizard, Spock is an expanded version of the original Rock
 
 ![Logo Image](docs/screenshots/logo.JPG)
 
+
 - **Header**
 
     - Featured at the top of the page, easy to read and explains what the game the player is playing. 
 
 ![Header Image](docs/screenshots/header.JPG) 
 
+
 - **Game Area**
 
     - Here the user is presented with 5 buttons to click on. When a button is clicked the computer will come back with its choice.
 
 ![Game Area](docs/screenshots/gamearea.JPG)
+
 
 - **Game Results**
 
@@ -49,3 +54,9 @@ Rock, Paper, Scissors, Lizard, Spock is an expanded version of the original Rock
     - Here a record is kept of who is winning, player or computer!
     - For each win is record the score increases by 1 for that party. 
 ![Score Area](docs/screenshots/scorearea.JPG)
+
+
+- **Reset Score** 
+
+    - Here is a simple button to allow the game to be reset and the scores go back to zero for both. 
+![Reset Button](docs/screenshots/resetbutton.JPG)
