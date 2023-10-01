@@ -72,3 +72,11 @@ Rock, Paper, Scissors, Lizard, Spock is an expanded version of the original Rock
 
     - Here both social links to Github and Linkedin are displayed. Both link will open in a new tab and direct you to my profiles on both. 
 ![Footer](docs/screenshots/footer.JPG)
+
+## Testing
+
+- I have tested this web page on three different browsers and works on all: Chrome, Edge, and Firefox
+- Device toolbar was also used to see the website through different screen sizes. 
+- All buttons on the page were tested and confirmed to be working as they should. 
+- Confirmed the correct results were given for all options. 
+
