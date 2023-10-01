@@ -58,6 +58,7 @@ p {
 
 #result {
     padding-top: 1.5em;
+    color: white;
 }
 
 .score-area {
@@ -207,33 +208,44 @@ footer {
     .score-area {
         margin: 20%;
     }
+
     .scorereset {
         margin: 25%;
     }
+
     .game-rules {
         margin: 1%;
     }
-  @media screen and (max-width: 768px) {
 
-      .logo {
-          margin: 25%;
-      }
+    .buttons {
+        margin: 20%;
+    }
 
-      .game-area {
-          margin: 15%;
-          width: 275px;
-      }
+    @media screen and (max-width: 768px) {
 
-      .score-area {
-          margin: 20%;
-      }
+        .logo {
+            margin: 25%;
+        }
 
-      .scorereset {
-          margin: 35%;
-      }
+        .game-area {
+            margin: 15%;
+            width: 275px;
+        }
 
-      .game-rules {
-          margin: 1%;
-      }
+        .score-area {
+            margin: 20%;
+        }
+
+        .scorereset {
+            margin: 35%;
+        }
+
+        .game-rules {
+            margin: 1%;
+        }
+
+        .buttons {
+            margin: 20%;
+        }
     }
 }
