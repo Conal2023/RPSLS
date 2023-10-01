@@ -29,3 +29,16 @@ Rock, Paper, Scissors, Lizard, Spock is an expanded version of the original Rock
     - Here the user is presented with 5 buttons to click on. When a button is clicked the computer will come back with its choice.
 
 ![Game Area](docs/screenshots/gamearea.JPG)
+
+- **Game Results**
+
+    - Here once both parties picks their choices the result is displayed. There are 3 options for the results:
+
+        - Win: here you will get a message that says "You win! Congratulations. Computer chose (*)."
+        ![Win Result](docs/screenshots/winresult.JPG)
+
+        - Lose: here you will get a message that says "You Lose! Try Again. Computer chose (*)."
+        ![Lose Result](docs/screenshots/loseresult.JPG)
+
+        - Draw: here you will get a message that says "It's a tie! Computer chose (*) too! Go again!!
+        ![Draw Result](docs/screenshots/drawresult.JPG)
