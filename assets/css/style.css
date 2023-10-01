@@ -221,6 +221,10 @@ footer {
         margin: 20%;
     }
 
+    h1 {
+        margin: 30%;
+    }
+
     @media screen and (max-width: 768px) {
 
         .logo {
@@ -245,7 +249,11 @@ footer {
         }
 
         .buttons {
-            margin: 40%;
+            margin: 25%;
+        }
+
+        h1 {
+            margin: 30%;
         }
     }
 }
