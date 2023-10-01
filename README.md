@@ -60,3 +60,15 @@ Rock, Paper, Scissors, Lizard, Spock is an expanded version of the original Rock
 
     - Here is a simple button to allow the game to be reset and the scores go back to zero for both. 
 ![Reset Button](docs/screenshots/resetbutton.JPG)
+
+
+- **Rules Area**
+
+    - Here the rules are displayed so the player knows what beats what. 
+![Rules Area](docs/screenshots/rules.JPG)
+
+
+- **Footer**
+
+    - Here both social links to Github and Linkedin are displayed. Both link will open in a new tab and direct you to my profiles on both. 
+![Footer](docs/screenshots/footer.JPG)
