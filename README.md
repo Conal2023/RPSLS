@@ -91,12 +91,12 @@ Rock, Paper, Scissors, Lizard, Spock is an expanded version of the original Rock
 
 - HTML
 
-    - 
+    - No errors were returned when passing through the offical W3C validator.
 
 - CSS
 
-    - No errors were found when passing through the official (jigsaw) validator 
+    - No errors were found when passing through the official (jigsaw) validator.
 
 - JavaScript
 
-    -   
+    - No errors we found when passing through the Validator (JSHint.com)
