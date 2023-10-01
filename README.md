@@ -42,3 +42,10 @@ Rock, Paper, Scissors, Lizard, Spock is an expanded version of the original Rock
 
         - Draw: here you will get a message that says "It's a tie! Computer chose (*) too! Go again!!
         ![Draw Result](docs/screenshots/drawresult.JPG)
+
+
+- **Score Area** 
+
+    - Here a record is kept of who is winning, player or computer!
+    - For each win is record the score increases by 1 for that party. 
+![Score Area](docs/screenshots/scorearea.JPG)
