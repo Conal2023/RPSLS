@@ -23,3 +23,9 @@ Rock, Paper, Scissors, Lizard, Spock is an expanded version of the original Rock
     - Featured at the top of the page, easy to read and explains what the game the player is playing. 
 
 ![Header Image](docs/screenshots/header.JPG) 
+
+- **Game Area**
+
+    - Here the user is presented with 5 buttons to click on. When a button is clicked the computer will come back with its choice.
+
+![Game Area](docs/screenshots/game%20area.JPG)
