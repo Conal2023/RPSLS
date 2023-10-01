@@ -17,3 +17,9 @@ Rock, Paper, Scissors, Lizard, Spock is an expanded version of the original Rock
     - Featured at the top of the page and shows what beats what. 
 
 ![Logo Image](docs/screenshots/logo.JPG)
+
+- **Header**
+
+    - Featured at the top of the page, easy to read and explains what the game the player is playing. 
+
+![Header Image](docs/screenshots/header.JPG) 
