@@ -85,3 +85,18 @@ Rock, Paper, Scissors, Lizard, Spock is an expanded version of the original Rock
 ## Bugs
 
 - When I first tried to create the Rock, Paper, Scissors, Lizard, Spock game my first try at coding didnt work. It kept giving wrong answers for Lizard and Spock. After multiple tries at fixing this I got extremely frustrated and ended up deleting both the work space on Codeanywhere and the Repo on Github. I continued to search for way to do it and after a good while looking found a solution. I was so close with the original code I now wish I didnt delete it. A lesson learnt for future projects. 
+
+
+## Validator Testing 
+
+- HTML
+
+    - 
+
+- CSS
+
+    - No errors were found when passing through the official (jigsaw) validator 
+
+- JavaScript
+
+    -   
