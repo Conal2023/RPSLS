@@ -4,4 +4,4 @@
 
 This website has been created on the Rock, Paper, Scissors, Lizard, Spock game from the TV series The Big Bang Theory. Its add two more options to choose from the original game Rock, Paper, Scissors. This websites gives the user to play against the computer 
 
-![AmIResponsive Image](doc/screenshots/responsive.JPG)
+![AmIResponsive Image](docs/screenshots/responsive.JPG)
