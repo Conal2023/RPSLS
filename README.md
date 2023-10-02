@@ -129,5 +129,6 @@ You can find the live site her [Rock, Paper, Scissors, Lizard, Spock](https://co
 
 - The logo was taken from the website [bigbangtheory.fandom.com](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
 - The color ideas came form [ColorSpace](https://mycolor.space/)
+- The icons used for social links on the page came from [Font Awesome](https://fontawesome.com/)
 
 
