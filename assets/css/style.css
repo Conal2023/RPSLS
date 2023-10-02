@@ -74,12 +74,12 @@ p {
 }
 
 #pscore {
-    color: green;
+    color: white;
     font-weight: bold;
 }
 
 #cscore {
-    color: red;
+    color: white;
     font-weight: bold;
 }
 
@@ -157,10 +157,13 @@ p {
 #score-reset {
     border-radius: 3em;
     border: 1px solid black;
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: white;
     background-color: #f64c72;
     padding: 7.5px;
+}
+#score-reset:hover {
+    box-shadow: 5px 5px 10px #f64c72;
 }
 
 .game-rules {
