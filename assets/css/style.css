@@ -8,7 +8,7 @@
 /* General Styles */
 body {
     flex: 1 0 auto;
-    margin-top: 180px;
+    margin-top: 150px;
     background-color: #2f2fa2;
 }
 
@@ -82,7 +82,12 @@ p {
     color: white;
     font-weight: bold;
 }
-
+.game-rules {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding-top: 1.5em;
+}
 /* Button Styles */
 
 .Rock {
@@ -166,12 +171,7 @@ p {
     box-shadow: 5px 5px 10px #f64c72;
 }
 
-.game-rules {
-    text-align: center;
-    font-size: 2em;
-    color: white;
-    padding-top: 1.5em;
-}
+
 
 /* Footer */
 footer {
