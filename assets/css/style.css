@@ -203,7 +203,7 @@ footer {
 @media screen and (max-width: 600px) {
 
     .logo {
-        margin: 10%;
+        margin: 7%;
     }
 
     .game-area {
@@ -212,24 +212,28 @@ footer {
     }
 
     .score-area {
-        margin: 20%;
+        margin: 17%;
     }
 
     .scorereset {
-        margin: 25%;
+        margin: 17%;
     }
 
     .game-rules {
-        margin: 1%;
+        margin: 5%;
     }
 
     .buttons {
-        margin: 20%;
+        margin: 17%;
     }
 
     h1 {
         margin: 30%;
     }
+    ol {
+        margin: 17%;
+    }
+
 
     @media screen and (max-width: 768px) {
 
