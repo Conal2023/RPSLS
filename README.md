@@ -125,3 +125,9 @@ You can find the live site her [Rock, Paper, Scissors, Lizard, Spock](https://co
 - The W3Schools.com website helped a lot when I was struggling to find a way to do something. 
 - Slack chats - I found some of the other students to be a great help with solutions to problems I was having or suggesting changes to the project. 
 
+## Content
+
+- The logo was taken from the website [bigbangtheory.fandom.com](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
+- The color ideas came form [ColorSpace](https://mycolor.space/)
+
+
