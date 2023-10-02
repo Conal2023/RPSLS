@@ -118,3 +118,10 @@ Rock, Paper, Scissors, Lizard, Spock is an expanded version of the original Rock
     - When a deployment to Github page is successful, a notice will be shown with the link to the live page. 
 
 You can find the live site her [Rock, Paper, Scissors, Lizard, Spock](https://conal2023.github.io/RPSLS/)
+
+## Credits 
+
+- The Code Institute Love Running Project / Love Math Project had an impact on this project. There may be some similarities in the code but I tried to stray away as much as possible. 
+- The W3Schools.com website helped a lot when I was struggling to find a way to do something. 
+- Slack chats - I found some of the other students to be a great help with solutions to problems I was having or suggesting changes to the project. 
+
