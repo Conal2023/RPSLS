@@ -86,6 +86,8 @@ Rock, Paper, Scissors, Lizard, Spock is an expanded version of the original Rock
 
 - When I first tried to create the Rock, Paper, Scissors, Lizard, Spock game my first try at coding didnt work. It kept giving wrong answers for Lizard and Spock. After multiple tries at fixing this I got extremely frustrated and ended up deleting both the work space on Codeanywhere and the Repo on Github. I continued to search for way to do it and after a good while looking found a solution. I was so close with the original code I now wish I didnt delete it. A lesson learnt for future projects. 
 
+- When it came to testing at the end of the project I noticed I made a mistake with the Rules section. I had manually typed the numbers for the list when I should have coded this. From here I noticed when I went to fix this it caused issues with other areas in the project. Once i had all this fixed I then tried to test the page again and noticed that the bottom part of the list was now hidden behind the Footer. I tried multiple options but with no success so I turned to Google and found a solution which helped. 
+
 
 ## Validator Testing 
 
@@ -100,3 +102,19 @@ Rock, Paper, Scissors, Lizard, Spock is an expanded version of the original Rock
 - JavaScript
 
     - No errors we found when passing through the Validator (JSHint.com)
+
+- Accessibility 
+
+    - From running through the lighthouse I confirmed that the colors and fonts chosen are easy to read and accessible.
+    [Lighthouse](docs/screenshots/lighthouse.JPG)
+
+
+## Deployment
+
+- I deployed the page on Github by following the below steps:
+    - Open the Settings tab from the menu on the left.
+    - Choose the Pages tab from the menu on the left.
+    - Choose the Main Branch from the drop-down option under the Source section, then clicked Save.
+    - When a deployment to Github page is successful, a notice will be shown with the link to the live page. 
+
+You can find the live site her [Rock, Paper, Scissors, Lizard, Spock](https://conal2023.github.io/RPSLS/)
