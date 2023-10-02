@@ -18,21 +18,21 @@ Rock, Paper, Scissors, Lizard, Spock is an expanded version of the original Rock
 
     - Featured at the top of the page and shows what beats what. 
 
-![Logo Image](docs/screenshots/logo.JPG)
+![Logo Image](assets/docs/screenshots/logo.JPG)
 
 
 - **Header**
 
     - Featured at the top of the page, easy to read and explains what the game the player is playing. 
 
-![Header Image](docs/screenshots/header.JPG) 
+![Header Image](assets/docs/screenshots/header.JPG) 
 
 
 - **Game Area**
 
     - Here the user is presented with 5 buttons to click on. When a button is clicked the computer will come back with its choice.
 
-![Game Area](docs/screenshots/gamearea.JPG)
+![Game Area](assets/docs/screenshots/gamearea.JPG)
 
 
 - **Game Results**
@@ -40,38 +40,38 @@ Rock, Paper, Scissors, Lizard, Spock is an expanded version of the original Rock
     - Here once both parties picks their choices the result is displayed. There are 3 options for the results:
 
         - Win: here you will get a message that says "You win! Congratulations. Computer chose (*)."
-        ![Win Result](docs/screenshots/winresult.JPG)
+        ![Win Result](assets/docs/screenshots/winresult.JPG)
 
         - Lose: here you will get a message that says "You Lose! Try Again. Computer chose (*)."
-        ![Lose Result](docs/screenshots/loseresult.JPG)
+        ![Lose Result](assets/docs/screenshots/loseresult.JPG)
 
         - Draw: here you will get a message that says "It's a tie! Computer chose (*) too! Go again!!
-        ![Draw Result](docs/screenshots/drawresult.JPG)
+        ![Draw Result](assets/docs/screenshots/drawresult.JPG)
 
 
 - **Score Area** 
 
     - Here a record is kept of who is winning, player or computer!
     - For each win is record the score increases by 1 for that party. 
-![Score Area](docs/screenshots/scorearea.JPG)
+![Score Area](assets/docs/screenshots/scorearea.JPG)
 
 
 - **Reset Score** 
 
     - Here is a simple button to allow the game to be reset and the scores go back to zero for both. 
-![Reset Button](docs/screenshots/resetbutton.JPG)
+![Reset Button](assets/docs/screenshots/resetbutton.JPG)
 
 
 - **Rules Area**
 
     - Here the rules are displayed so the player knows what beats what. 
-![Rules Area](docs/screenshots/rules.JPG)
+![Rules Area](assets/docs/screenshots/rules.JPG)
 
 
 - **Footer**
 
     - Here both social links to Github and Linkedin are displayed. Both link will open in a new tab and direct you to my profiles on both. 
-![Footer](docs/screenshots/footer.JPG)
+![Footer](assets/docs/screenshots/footer.JPG)
 
 
 ## Testing
@@ -106,7 +106,7 @@ Rock, Paper, Scissors, Lizard, Spock is an expanded version of the original Rock
 - Accessibility 
 
     - From running through the lighthouse I confirmed that the colors and fonts chosen are easy to read and accessible.
-    [Lighthouse](docs/screenshots/lighthouse.JPG)
+    [Lighthouse](assets/docs/screenshots/lighthouse.JPG)
 
 
 ## Deployment
