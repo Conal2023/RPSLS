@@ -82,6 +82,7 @@ p {
     color: white;
     font-weight: bold;
 }
+
 .game-rules {
     text-align: center;
     font-size: 2em;
@@ -89,9 +90,11 @@ p {
     padding-top: 1em;
     padding-bottom: 5em;
 }
+
 ol {
     display: inline-block;
 }
+
 /* Button Styles */
 
 .Rock {
@@ -171,11 +174,10 @@ ol {
     background-color: #f64c72;
     padding: 7.5px;
 }
+
 #score-reset:hover {
     box-shadow: 5px 5px 10px #f64c72;
 }
-
-
 
 /* Footer */
 footer {
@@ -183,8 +185,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    
-    }
+}
 
 #social-networks {
     text-align: center;
@@ -202,68 +203,67 @@ footer {
 
 @media screen and (max-width: 600px) {
 
-    .logo {
-        margin: 7%;
-    }
+.logo {
+     margin: 7%;
+}
 
-    .game-area {
-        margin: 1%;
-        width: 275px;
-    }
+.game-area {
+    margin: 1%;
+    width: 275px;
+}
 
-    .score-area {
-        margin: 17%;
-    }
+.score-area {
+     margin: 17%;
+}
 
-    .scorereset {
-        margin: 17%;
-    }
+.scorereset {
+    margin: 17%;
+}
 
-    .game-rules {
-        margin: 5%;
-    }
+.game-rules {
+    margin: 5%;
+}
 
-    .buttons {
-        margin: 17%;
-    }
+.buttons {
+    margin: 17%;
+}
 
-    h1 {
-        margin: 30%;
-    }
-    ol {
-        margin: 17%;
-    }
+h1 {
+    margin: 30%;
+}
+ol {
+    margin: 17%;
+}
 
+@media screen and (max-width: 768px) {
 
-    @media screen and (max-width: 768px) {
+.logo {
+    margin: 25%;
+}
 
-        .logo {
-            margin: 25%;
-        }
+.game-area {
+    margin: 15%;
+    width: 275px;
+}
 
-        .game-area {
-            margin: 15%;
-            width: 275px;
-        }
+.score-area {
+    margin: 20%;
+}
 
-        .score-area {
-            margin: 20%;
-        }
+.scorereset {
+    margin: 35%;
+}
 
-        .scorereset {
-            margin: 35%;
-        }
+.game-rules {
+    margin: 1%;
+}
 
-        .game-rules {
-            margin: 1%;
-        }
+.buttons {
+    margin: 25%;
+}
 
-        .buttons {
-            margin: 25%;
-        }
-
-        h1 {
-            margin: 30%;
-        }
-    }
+h1 {
+    margin: 30%;
+}
+}
 }
